@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-steamworks-master.flake = false;
+  inputs.src-steamworks-master.ref   = "refs/heads/master";
   inputs.src-steamworks-master.owner = "treeform";
-  inputs.src-steamworks-master.ref   = "master";
   inputs.src-steamworks-master.repo  = "steamworks";
   inputs.src-steamworks-master.type  = "github";
   

@@ -1,5 +1,5 @@
 {
-  description = ''Steamworks SDK API for shipping games on Steam.'';
+  description = ''Steamworks wrapper for nim.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-steamworks-master.flake = false;
   inputs.src-steamworks-master.owner = "treeform";
-  inputs.src-steamworks-master.ref   = "refs/heads/master";
+  inputs.src-steamworks-master.ref   = "master";
   inputs.src-steamworks-master.repo  = "steamworks";
   inputs.src-steamworks-master.type  = "github";
   
